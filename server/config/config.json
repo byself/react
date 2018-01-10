@@ -1,0 +1,10 @@
+{
+  "app": {
+    "name": "api-server",
+    "port": 7400
+  },
+  "logger": {
+    "console": true,
+    "file": true
+  }
+}

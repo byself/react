@@ -1,0 +1,38 @@
+{
+  "name": "cosmetic-merchant-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "boom": "5.1.0",
+    "co-wechat": "1.0.0",
+    "co-wechat-api": "2.7.0",
+    "co-wechat-oauth": "1.0.1",
+    "debug": "~2.2.0",
+    "jsonwebtoken": "^7.1.9",
+    "koa": "1.4.0",
+    "koa-bodyparser": "2.5.0",
+    "koa-mount": "1.3.0",
+    "koa-router": "5.4.2",
+    "koa-static": "2.1.0",
+    "koa-session": "4.5.0",
+    "koa-views": "4.0.0",
+    "lodash": "4.17.4",
+    "nunjucks": "^3.0.1",
+    "redis": "2.6.3",
+    "request": "2.74.0",
+    "uuid": "3.1.0",
+    "winston": "2.3.1",
+    "winston-daily-rotate-file": "1.4.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "sinon": "^2.4.0"
+  }
+}

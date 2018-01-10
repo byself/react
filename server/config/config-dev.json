@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "api-server-dev",
+    "port": 7400,
+    "useCache": true,
+    "cacheType": "redis"
+  },
+  "logger": {
+    "console": true,
+    "file": true
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "service": {
+    "application": {
+      "baseURI": "http://localhost:8730"
+    }
+  }
+}
